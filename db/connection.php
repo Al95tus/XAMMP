@@ -1,9 +1,10 @@
 <?php
 // db/connection.php
-
+// db
 $path = dirname(__DIR__) . DIRECTORY_SEPARATOR . 'pdo' . DIRECTORY_SEPARATOR;
+//echo $path;
 $dsn = 'sqlite:' . $path . 'dbfile.sqlite';
-
+//echo $dsn
 try {
 	$pdo = new PDO($dsn);
 	$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
