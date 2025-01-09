@@ -1,6 +1,6 @@
 <?php
 // db/connection.php
-// db
+
 $path = dirname(__DIR__) . DIRECTORY_SEPARATOR . 'pdo' . DIRECTORY_SEPARATOR;
 //echo $path;
 $dsn = 'sqlite:' . $path . 'dbfile.sqlite';

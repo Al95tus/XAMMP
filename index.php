@@ -6,7 +6,8 @@ require_once 'db/db.php'; // Подключаем файл с функциями
 // Пример добавления пользователя
 $newUser = [
 	'username' => 'john_doe',
-	'password' => password_hash('securepassword', PASSWORD_DEFAULT),
+	'password' => password_hash('securepassword',
+	              PASSWORD_DEFAULT),
 	'age' => '30'
 ];
 
