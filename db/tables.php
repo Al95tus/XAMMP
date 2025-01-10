@@ -16,7 +16,7 @@ try {
 	)";
 
 	$pdo->exec($sql);
-	// echo "Table 'users' created successfully.";
+	echo "Table 'users' created successfully.";
 } catch (PDOException $e) {
 	echo $e->getMessage();
 }
